@@ -1,0 +1,1 @@
+$(".toggle_switch_page .toggle_page").click(function(){return $(".toggle_switch_page .toggle_page").removeClass("active"),$(this).addClass("active"),!1});

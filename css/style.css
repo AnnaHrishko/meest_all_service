@@ -189,6 +189,8 @@ body {
   padding: 10px 9px;
   display: inline-flex;
   margin-bottom: -70px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .mainblock_s_all_service .toggle_switch_page .toggle_page {
   border-radius: 100px;
@@ -205,4 +207,7 @@ body {
 .mainblock_s_all_service .toggle_switch_page .toggle_page.active {
   background: #2361A9;
   color: #fff;
+}
+.mainblock_s_all_service .toggle_switch_page::-webkit-scrollbar {
+  display: none;
 }
