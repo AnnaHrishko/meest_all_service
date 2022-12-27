@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 body {
-  background-color: #E5E5E5;
+  background-color: #f8f9fa;
   font-family: "Montserrat";
 }
 
@@ -59,6 +59,13 @@ body {
 .card_service .img_service {
   position: relative;
 }
+.card_service .img_service .btn_details {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .card_service .img_service:hover .btn_details {
   display: block;
   z-index: 5;
@@ -87,12 +94,12 @@ body {
   color: #2361A9;
   text-decoration: none;
 }
-.card_service .btn_details {
+.card_service h3 a br {
   display: none;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%);
+}
+
+.details_wrap .btn_details {
+  display: none;
 }
 
 .btn_details {
